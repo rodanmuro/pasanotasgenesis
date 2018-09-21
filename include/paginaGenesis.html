@@ -1,0 +1,1277 @@
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML lang="en">
+<HEAD>
+<META http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<META HTTP-EQUIV="Pragma" NAME="Cache-Control" CONTENT="no-cache">
+<META HTTP-EQUIV="Cache-Control" NAME="Cache-Control" CONTENT="no-cache">
+<LINK REL="stylesheet" HREF="/css/web_defaultapp.css" TYPE="text/css">
+<LINK REL="stylesheet" HREF="/css/web_defaultprint.css" TYPE="text/css" media="print">
+<TITLE>Ingresar Marcas</TITLE>
+<META HTTP-EQUIV="Content-Script-Type" NAME="Default_Script_Language" CONTENT="text/javascript">
+<SCRIPT LANGUAGE="JavaScript" TYPE="text/javascript">
+<!-- Hide JavaScript from older browsers 
+var submitcount=0;
+function checkSubmit() {
+if (submitcount == 0)
+   {
+   submitcount++;
+   return true;
+   }
+else
+   {
+alert("Sus cambios ya se enviaron.");
+   return false;
+   }
+}
+//  End script hiding -->
+</SCRIPT>
+<SCRIPT LANGUAGE="JavaScript" TYPE="text/javascript">
+<!-- Hide JavaScript from older browsers 
+//  Function to open a window
+function windowOpen(window_url) {
+   helpWin = window.open(window_url,'','toolbar=yes,status=no,scrollbars=yes,menubar=yes,resizable=yes,directories=no,location=no,width=350,height=400');
+   if (document.images) { 
+       if (helpWin) helpWin.focus()
+   }
+}
+//  End script hiding -->
+</SCRIPT>
+</HEAD>
+<BODY>
+<div id="headerImage">
+<IMG SRC="/wtlgifs/cabezoteGenesis.png" ALIGN="middle" ALT="Sistema de Información Génesis UNIMINUTO" CLASS="headerImg" TITLE="Sistema de Información Génesis UNIMINUTO"  NAME="cabezotenuevo" HSPACE=0 VSPACE=0 BORDER=0 HEIGHT=170 WIDTH=902>
+</div>
+<DIV class="headerwrapperdiv">
+<DIV class="pageheaderdiv1">
+<A HREF="#main_content" onMouseover="window.status='Ir a Contenido Principal'; return true" onMouseout="window.status=''; return true" OnFocus="window.status='Ir a Contenido Principal'; return true" onBlur="window.status=''; return true" class="skiplinks">Ir a Contenido Principal</A>
+<H1>SIG - Uniminuto</H1></DIV><DIV class="headerlinksdiv">
+<SPAN class="pageheaderlinks2">
+<MAP NAME="Enlaces_de_Navegación_de_Módulo_H" title="Enlaces de Navegación de Módulo">
+<p>
+<A HREF="#skip_Enlaces_de_Navegación_de_Módulo_H" onMouseover="window.status='Skip Enlaces de Navegación de Módulo'; return true" onMouseout="window.status=''; return true" onFocus="window.status='Skip Enlaces de Navegación de Módulo'; return true" onBlur="window.status=''; return true"  class="skiplinks">Skip Enlaces de Navegación de Módulo</A>
+<TABLE  CLASS="plaintable" SUMMARY="Esta es la tabla principal para desplegar Elementos de Pestaña."
+                          WIDTH="100%" cellSpacing=0 cellPadding=0 border=0>
+<TR>
+<TD CLASS="pldefault">
+<TABLE  CLASS="plaintable" SUMMARY="Esta tabla despliega Elementos de Pestaña."
+                 cellSpacing=0 cellPadding=0 border=0>
+<TR>
+<td class="taboff"  height=22>
+<A HREF="/pls/PROD/twbkwbis.P_GenMenu?name=bmenu.P_GenMnu" onMouseover="window.status='Información Personal'; return true" onMouseout="window.status=''; return true" onFocus="window.status='Información Personal'; return true" onBlur="window.status=''; return true" >Información Personal</A>
+</TD>
+<TD class="bgtaboff" height=22 vAlign="top" align="right">
+<IMG SRC="/wtlgifs/web_tab_corner_right.gif" ALT="Esquina Derecha" CLASS="headerImg" TITLE="Esquina Derecha"  NAME="web_tab_corner_right" HSPACE=0 VSPACE=0 BORDER=0 HEIGHT=20 WIDTH=8>
+</TD>
+<td class="taboff"  height=22>
+<A HREF="/pls/PROD/twbkwbis.P_GenMenu?name=bmenu.P_StuMainMnu" onMouseover="window.status='Alumno y Ayuda Financiera'; return true" onMouseout="window.status=''; return true" onFocus="window.status='Alumno y Ayuda Financiera'; return true" onBlur="window.status=''; return true" >Alumno y Ayuda Financiera</A>
+</TD>
+<TD class="bgtaboff" height=22 vAlign="top" align="right">
+<IMG SRC="/wtlgifs/web_tab_corner_right.gif" ALT="Esquina Derecha" CLASS="headerImg" TITLE="Esquina Derecha"  NAME="web_tab_corner_right" HSPACE=0 VSPACE=0 BORDER=0 HEIGHT=20 WIDTH=8>
+</TD>
+<td class="tabon" height=22>
+<A HREF="/pls/PROD/twbkwbis.P_GenMenu?name=bmenu.P_FacMainMnu" onMouseover="window.status='Servicios a los Docentes'; return true" onMouseout="window.status=''; return true" onFocus="window.status='Servicios a los Docentes'; return true" onBlur="window.status=''; return true" >Servicios a los Docentes</A>
+</TD>
+<TD class="bgtabon" height=22 vAlign="top" align="right">
+<IMG SRC="/wtlgifs/web_tab_corner_right.gif" ALT="Esquina Derecha" CLASS="headerImg" TITLE="Esquina Derecha"  NAME="web_tab_corner_right" HSPACE=0 VSPACE=0 BORDER=0 HEIGHT=20 WIDTH=8>
+</TD>
+</TR>
+</TABLE>
+</TD>
+</TR>
+<TR>
+<TD class="bgtabon" width="100%" colSpan=2><IMG SRC="/wtlgifs/web_transparent.gif" ALT="Imagen Transparente" CLASS="headerImg" TITLE="Imagen Transparente"  NAME="web_transparent" HSPACE=0 VSPACE=0 BORDER=0 HEIGHT=3 WIDTH=10></TD></TR></TABLE>
+</MAP>
+</SPAN>
+<a name="skip_Enlaces_de_Navegación_de_Módulo_H"></a>
+</DIV>
+<TABLE  CLASS="plaintable" SUMMARY="Esta tabla muestra Elementos de Menú y cuadro de texto de Búsqueda de Banner."
+         WIDTH="100%">
+<TR>
+<TD CLASS="pldefault">
+<DIV class="headerlinksdiv2">
+<FORM ACTION="/pls/PROD/twbksrch.P_ShowResults" METHOD="POST">
+Buscar
+<SPAN class="fieldlabeltextinvisible"><LABEL for=keyword_in_id><SPAN class="fieldlabeltext">Buscar</SPAN></LABEL></SPAN>
+<INPUT TYPE="text" NAME="KEYWRD_IN" SIZE="20" MAXLENGTH="65" ID="keyword_in_id">
+<INPUT TYPE="submit" VALUE="Ir">
+</FORM>
+</div>
+</TD>
+<TD CLASS="pldefault"><p class="rightaligntext">
+<SPAN class="pageheaderlinks">
+<A HREF="/pls/PROD/twbkwbis.P_GenMenu?name=bmenu.P_FacMainMnu"  class="submenulinktext2" id="ssbbackurl">RETURN TO GRADABLE COMPONENTS</A>
+|
+<A HREF="/pls/PROD/twbksite.P_DispSiteMap?menu_name_in=bmenu.P_GenMnu&amp;depth_in=2&amp;columns_in=3" accesskey="2" class="submenulinktext2">MAPA DE SITIO</A>
+|
+<A HREF="http://genesis.uniminuto.edu/faq/" accesskey="H" onClick="popup = window.open('http://genesis.uniminuto.edu/faq/', 'PopupPage','height=500,width=450,scrollbars=yes,resizable=yes'); return false" target="_blank" onMouseOver="window.status='';  return true" onMouseOut="window.status=''; return true"onFocus="window.status='';  return true" onBlur="window.status=''; return true"  class="submenulinktext2">AYUDA</A>
+|
+<A HREF="twbkwbis.P_Logout" accesskey="3" class="submenulinktext2">SALIR</A>
+</span>
+</TD>
+</TR>
+</TABLE>
+</DIV>
+<DIV class="pagetitlediv">
+<TABLE  CLASS="plaintable" SUMMARY="Esta tabla muestra el título y encabezado estático."
+   WIDTH="100%">
+<TR>
+<TD CLASS="pldefault">
+<H2>Ingresar Marcas</H2>
+</TD>
+<TD CLASS="pldefault">
+&nbsp;
+</TD>
+<TD CLASS="pldefault"><p class="rightaligntext">
+<DIV class="staticheaders">
+000559802 RODOLFO A. MURIEL RODRIGUEZ<br>
+Pregrado Distancia 2018-2<br>
+Sep 20, 2018 07:00 PM<br>
+</div>
+</TD>
+</TR>
+<TR>
+<TD class="bg3" width="100%" colSpan=3><IMG SRC="/wtlgifs/web_transparent.gif" ALT="Imagen Transparente" CLASS="headerImg" TITLE="Imagen Transparente"  NAME="web_transparent" HSPACE=0 VSPACE=0 BORDER=0 HEIGHT=3 WIDTH=10></TD>
+</TR>
+</TABLE>
+<a name="main_content"></a>
+</DIV>
+<DIV class="pagebodydiv">
+<!--  ** END OF twbkwbis.P_OpenDoc **  -->
+<TABLE  CLASS="datadisplaytable" SUMMARY="Esta tabla despliega atributos del curso."><CAPTION class="captiontext">Atributos de Curso</CAPTION>
+<TR>
+<TD CLASS="ntlabel" scope="row" >Título:</TD>
+<TD CLASS="ntdefault">ESTADISTICA II INFERENCIAL</TD>
+</TR>
+<TR>
+<TD CLASS="ntlabel" scope="row" >Curso:</TD>
+<TD CLASS="ntdefault">UVDE 1041 - 26</TD>
+</TR>
+<TR>
+<TD CLASS="ntlabel" scope="row" ><ABBR title = "Número de Referencia de Curso:">NRC:</ABBR></TD>
+<TD CLASS="ntdefault">8211</TD>
+</TR>
+</TABLE>
+<BR>
+<FORM ACTION="http://wiwa.uniminuto.edu:8501/pls/PROD/bwlkegrb.P_FacScorePost" METHOD="POST"  name=grades>
+
+<TABLE  CLASS="dataentrytable" SUMMARY="Esta tabla despliega atributos del componente para el que ingresa/ve marcas." WIDTH="100%"><CAPTION class="captiontext">Componente</CAPTION>
+<TR>
+<TD CLASS="deheader" scope="col" >Descripción</TD>
+<TD CLASS="deheader" scope="col" >Peso </TD>
+<TD CLASS="deheader" scope="col" >Escala de Calificación</TD>
+<TD CLASS="deheader" scope="col" >Debe Pasar</TD>
+<TD CLASS="deheader" scope="col" >Incluir en<BR>Parcial o Final</TD>
+<TD CLASS="deheader" scope="col" >Puntajes Incompletos</TD>
+</TR>
+<TR>
+<TD CLASS="dedefault">
+PARCIAL1 - PRIMER PARCIAL
+<INPUT TYPE="hidden" NAME="return_proc" VALUE="BYCOMPONENT">
+</TD>
+<TD CLASS="dedefault">35/100</TD>
+<TD CLASS="dedefault">STANDAR</TD>
+<TD CLASS="dedefault"><SPAN class="fieldmediumtext">Sí</SPAN></TD>
+<TD CLASS="dedefault">Parcial</TD>
+<TD CLASS="dedefault">0</TD>
+</TABLE>
+<BR>
+<TABLE  CLASS="datadisplaytable" SUMMARY="Esta tabla despliega fechas de corte para califs parciales y/o finales."><CAPTION class="captiontext">Fechas de Corte de Envío de Calificaciones</CAPTION>
+<TR>
+<TD CLASS="ntlabel" scope="row" >Parcial:</TD>
+<TD CLASS="ntdefault">Sep 30, 2018</TD>
+</TR>
+<TR>
+<TD CLASS="ntlabel" scope="row" >Final:</TD>
+<TD CLASS="ntdefault">Nov 11, 2018</TD>
+</TR>
+</TABLE>
+<BR>
+<script language="javascript" type="text/javascript">
+ function anotherPage(tr)
+  {
+   document.grades.target_rec.value=tr;
+   document.grades.submit();
+  }
+</script>
+<a name = "here" ></a>
+<INPUT TYPE="hidden" NAME="rowid_tab" VALUE="AABBblAAKAACdqPABj">
+<INPUT TYPE="hidden" NAME="pidm_tab" VALUE="621649">
+<TABLE  CLASS="datadisplaytable" SUMMARY="Esta tabla despliega una lista de alumnos para los que ingresa/ve marcas de componente." WIDTH="100%"><CAPTION class="captiontext">Notas Componente</CAPTION>
+<TR>
+<TD CLASS="ntheader" scope="col" >Registro<BR>Número</TD>
+<TD CLASS="ntheader" scope="col" >Alumno<ABBR title = " Número de Identificación"> ID</ABBR></TD>
+<TD CLASS="ntheader" scope="col" >Nombre de Alumno</TD>
+<TD CLASS="ntheader" scope="col" >Status</TD>
+<TD CLASS="ntheader" scope="col" >Puntaje </TD>
+<TD CLASS="ntheader" scope="col" >De</TD>
+<TD CLASS="ntheader" scope="col" >Porciento</TD>
+<TD CLASS="ntheader" scope="col" >Calificación</TD>
+<TD CLASS="ntheader" scope="col" >Fecha Vencimiento</TD>
+<TD CLASS="ntheader" scope="col" >Envío<BR>Fecha (DD/MM/YYYY)</TD>
+<TD CLASS="ntheader" scope="col" >Extensión<BR>Fecha (DD/MM/YYYY)</TD>
+<TD CLASS="ntheader" scope="col" >Nota</TD>
+<TD CLASS="ntheader" scope="col" >Razón</TD>
+</TR>
+<TR>
+<TD CLASS="ntdefault">
+<INPUT TYPE="hidden" NAME="class_size" VALUE="19">
+<INPUT TYPE="hidden" NAME="target_rec" VALUE="1">
+</TD>
+</TR>
+<TR>
+<TD CLASS="ntdefault">1</TD>
+<TD CLASS="ntdefault">000585027</TD>
+<TD CLASS="ntdefault">ACEVEDO ROMERO, OLMEDO A. <SPAN class="requirementnotmet"> Confidencial</SPAN> </TD>
+<TD CLASS="ntdefault">**Inscrito por Web**</TD>
+<TD CLASS="ntdefault">
+<LABEL for=marks_id1><SPAN class="fieldlabeltextinvisible">Puntaje</SPAN></LABEL>
+<INPUT TYPE="text" NAME="marks_tab" SIZE="7" MAXLENGTH="6" VALUE="80" ID="marks_id2"><INPUT TYPE="hidden" NAME="inclind_tab" VALUE="M">
+</TD>
+<TD CLASS="ntdefault">100</TD>
+<TD CLASS="ntdefault">80</TD>
+<TD CLASS="ntdefault">
+4.0
+<INPUT TYPE="hidden" NAME="calif_tab" VALUE="4.0">
+</TD>
+<TD CLASS="ntdefault">May 07, 2018</TD>
+<TD CLASS="ntdefault">
+<LABEL for=subdate_id1><SPAN class="fieldlabeltextinvisible">Fecha Envío</SPAN></LABEL>
+<INPUT TYPE="text" NAME="subdate_tab" SIZE="16" MAXLENGTH="12" VALUE="07/05/2018" ID="subdate_id1">
+</TD>
+<TD CLASS="ntdefault">
+<LABEL for=extdate_id1><SPAN class="fieldlabeltextinvisible">Fecha de Extensión</SPAN></LABEL>
+<INPUT TYPE="text" NAME="extdate_tab" SIZE="16" MAXLENGTH="12" ID="extdate_id1">
+</TD>
+<TD CLASS="ntdefault">
+<LABEL for=marker_id1><SPAN class="fieldlabeltextinvisible">Nombre de Nota</SPAN></LABEL>
+<SELECT NAME="markerName_tab" SIZE="1" ID="marker_id1">
+<OPTION VALUE="596375" SELECTED>MURIEL RODRIGUEZ, RODOLFO A.
+</SELECT>
+</TD>
+<TD CLASS="ntdefault">
+<LABEL for=grdchgcde_id1><SPAN class="fieldlabeltextinvisible">Razón</SPAN></LABEL>
+<SELECT NAME="grdchgCde_tab" SIZE="1" ID="grdchgcde_id1">
+<OPTION VALUE="CS">CS-Cambio por examen supletorio
+<OPTION VALUE="HB">HB-Cambio por Habilitacion
+<OPTION VALUE="OE" SELECTED>OE-Captura Original
+<OPTION VALUE="EE">EE-Error de Ingreso
+<OPTION VALUE="CD">CD-Corrección de Docente
+<OPTION VALUE="SG">SG-Grado Sustituto
+<OPTION VALUE="SD">SD-Calificación Sistema Developer
+<OPTION VALUE="CP">CP-Cambio Plan Estudios
+<OPTION VALUE="DN">DN-Docente no Registro Nota
+<OPTION VALUE="HA">HA-Historia Académ./Homologación
+<OPTION VALUE="TL">TL-Homologacion traslado
+<OPTION VALUE="CR">CR-Capped Resit
+<OPTION VALUE="DL">DL-Degraded Late
+<OPTION VALUE="CC">CC-Composite Calculation
+<OPTION VALUE="RC">RC-Re-Calculated
+</SELECT>
+</TD>
+</TR>
+<INPUT TYPE="hidden" NAME="rowid_tab" VALUE="AABBblAAXAAAKEyAAp">
+<INPUT TYPE="hidden" NAME="pidm_tab" VALUE="652698">
+<TR>
+<TD CLASS="ntdefault">2</TD>
+<TD CLASS="ntdefault">000615975</TD>
+<TD CLASS="ntdefault">ARIAS DELGADO, DIANA M. <SPAN class="requirementnotmet"> Confidencial</SPAN> </TD>
+<TD CLASS="ntdefault">Registrado</TD>
+<TD CLASS="ntdefault">
+<LABEL for=marks_id2><SPAN class="fieldlabeltextinvisible">Puntaje</SPAN></LABEL>
+<INPUT TYPE="text" NAME="marks_tab" SIZE="7" MAXLENGTH="6" VALUE="68" ID="marks_id2"><INPUT TYPE="hidden" NAME="inclind_tab" VALUE="M">
+</TD>
+<TD CLASS="ntdefault">100</TD>
+<TD CLASS="ntdefault">68</TD>
+<TD CLASS="ntdefault">
+3.4
+<INPUT TYPE="hidden" NAME="calif_tab" VALUE="3.4">
+</TD>
+<TD CLASS="ntdefault">May 07, 2018</TD>
+<TD CLASS="ntdefault">
+<LABEL for=subdate_id2><SPAN class="fieldlabeltextinvisible">Fecha Envío</SPAN></LABEL>
+<INPUT TYPE="text" NAME="subdate_tab" SIZE="16" MAXLENGTH="12" VALUE="07/05/2018" ID="subdate_id2">
+</TD>
+<TD CLASS="ntdefault">
+<LABEL for=extdate_id2><SPAN class="fieldlabeltextinvisible">Fecha de Extensión</SPAN></LABEL>
+<INPUT TYPE="text" NAME="extdate_tab" SIZE="16" MAXLENGTH="12" ID="extdate_id2">
+</TD>
+<TD CLASS="ntdefault">
+<LABEL for=marker_id2><SPAN class="fieldlabeltextinvisible">Nombre de Nota</SPAN></LABEL>
+<SELECT NAME="markerName_tab" SIZE="1" ID="marker_id2">
+<OPTION VALUE="596375" SELECTED>MURIEL RODRIGUEZ, RODOLFO A.
+</SELECT>
+</TD>
+<TD CLASS="ntdefault">
+<LABEL for=grdchgcde_id2><SPAN class="fieldlabeltextinvisible">Razón</SPAN></LABEL>
+<SELECT NAME="grdchgCde_tab" SIZE="1" ID="grdchgcde_id2">
+<OPTION VALUE="CS">CS-Cambio por examen supletorio
+<OPTION VALUE="HB">HB-Cambio por Habilitacion
+<OPTION VALUE="OE" SELECTED>OE-Captura Original
+<OPTION VALUE="EE">EE-Error de Ingreso
+<OPTION VALUE="CD">CD-Corrección de Docente
+<OPTION VALUE="SG">SG-Grado Sustituto
+<OPTION VALUE="SD">SD-Calificación Sistema Developer
+<OPTION VALUE="CP">CP-Cambio Plan Estudios
+<OPTION VALUE="DN">DN-Docente no Registro Nota
+<OPTION VALUE="HA">HA-Historia Académ./Homologación
+<OPTION VALUE="TL">TL-Homologacion traslado
+<OPTION VALUE="CR">CR-Capped Resit
+<OPTION VALUE="DL">DL-Degraded Late
+<OPTION VALUE="CC">CC-Composite Calculation
+<OPTION VALUE="RC">RC-Re-Calculated
+</SELECT>
+</TD>
+</TR>
+<INPUT TYPE="hidden" NAME="rowid_tab" VALUE="AABBblAAKAACdPQABA">
+<INPUT TYPE="hidden" NAME="pidm_tab" VALUE="630740">
+<TR>
+<TD CLASS="ntdefault">3</TD>
+<TD CLASS="ntdefault">000594073</TD>
+<TD CLASS="ntdefault">BLANDON RONDON, MAGNAMARA <SPAN class="requirementnotmet"> Confidencial</SPAN> </TD>
+<TD CLASS="ntdefault">**Inscrito por Web**</TD>
+<TD CLASS="ntdefault">
+<LABEL for=marks_id3><SPAN class="fieldlabeltextinvisible">Puntaje</SPAN></LABEL>
+<INPUT TYPE="text" NAME="marks_tab" SIZE="7" MAXLENGTH="6" VALUE="76" ID="marks_id2"><INPUT TYPE="hidden" NAME="inclind_tab" VALUE="M">
+</TD>
+<TD CLASS="ntdefault">100</TD>
+<TD CLASS="ntdefault">76</TD>
+<TD CLASS="ntdefault">
+3.8
+<INPUT TYPE="hidden" NAME="calif_tab" VALUE="3.8">
+</TD>
+<TD CLASS="ntdefault">May 07, 2018</TD>
+<TD CLASS="ntdefault">
+<LABEL for=subdate_id3><SPAN class="fieldlabeltextinvisible">Fecha Envío</SPAN></LABEL>
+<INPUT TYPE="text" NAME="subdate_tab" SIZE="16" MAXLENGTH="12" VALUE="07/05/2018" ID="subdate_id3">
+</TD>
+<TD CLASS="ntdefault">
+<LABEL for=extdate_id3><SPAN class="fieldlabeltextinvisible">Fecha de Extensión</SPAN></LABEL>
+<INPUT TYPE="text" NAME="extdate_tab" SIZE="16" MAXLENGTH="12" ID="extdate_id3">
+</TD>
+<TD CLASS="ntdefault">
+<LABEL for=marker_id3><SPAN class="fieldlabeltextinvisible">Nombre de Nota</SPAN></LABEL>
+<SELECT NAME="markerName_tab" SIZE="1" ID="marker_id3">
+<OPTION VALUE="596375" SELECTED>MURIEL RODRIGUEZ, RODOLFO A.
+</SELECT>
+</TD>
+<TD CLASS="ntdefault">
+<LABEL for=grdchgcde_id3><SPAN class="fieldlabeltextinvisible">Razón</SPAN></LABEL>
+<SELECT NAME="grdchgCde_tab" SIZE="1" ID="grdchgcde_id3">
+<OPTION VALUE="CS">CS-Cambio por examen supletorio
+<OPTION VALUE="HB">HB-Cambio por Habilitacion
+<OPTION VALUE="OE" SELECTED>OE-Captura Original
+<OPTION VALUE="EE">EE-Error de Ingreso
+<OPTION VALUE="CD">CD-Corrección de Docente
+<OPTION VALUE="SG">SG-Grado Sustituto
+<OPTION VALUE="SD">SD-Calificación Sistema Developer
+<OPTION VALUE="CP">CP-Cambio Plan Estudios
+<OPTION VALUE="DN">DN-Docente no Registro Nota
+<OPTION VALUE="HA">HA-Historia Académ./Homologación
+<OPTION VALUE="TL">TL-Homologacion traslado
+<OPTION VALUE="CR">CR-Capped Resit
+<OPTION VALUE="DL">DL-Degraded Late
+<OPTION VALUE="CC">CC-Composite Calculation
+<OPTION VALUE="RC">RC-Re-Calculated
+</SELECT>
+</TD>
+</TR>
+<INPUT TYPE="hidden" NAME="rowid_tab" VALUE="AABBblAAKAACdF8AAa">
+<INPUT TYPE="hidden" NAME="pidm_tab" VALUE="652690">
+<TR>
+<TD CLASS="ntdefault">4</TD>
+<TD CLASS="ntdefault">000615967</TD>
+<TD CLASS="ntdefault">CELIS BUITRAGO, KAROL D. <SPAN class="requirementnotmet"> Confidencial</SPAN> </TD>
+<TD CLASS="ntdefault">**Inscrito por Web**</TD>
+<TD CLASS="ntdefault">
+<LABEL for=marks_id4><SPAN class="fieldlabeltextinvisible">Puntaje</SPAN></LABEL>
+<INPUT TYPE="text" NAME="marks_tab" SIZE="7" MAXLENGTH="6" VALUE="82" ID="marks_id2"><INPUT TYPE="hidden" NAME="inclind_tab" VALUE="M">
+</TD>
+<TD CLASS="ntdefault">100</TD>
+<TD CLASS="ntdefault">82</TD>
+<TD CLASS="ntdefault">
+4.1
+<INPUT TYPE="hidden" NAME="calif_tab" VALUE="4.1">
+</TD>
+<TD CLASS="ntdefault">May 07, 2018</TD>
+<TD CLASS="ntdefault">
+<LABEL for=subdate_id4><SPAN class="fieldlabeltextinvisible">Fecha Envío</SPAN></LABEL>
+<INPUT TYPE="text" NAME="subdate_tab" SIZE="16" MAXLENGTH="12" VALUE="07/05/2018" ID="subdate_id4">
+</TD>
+<TD CLASS="ntdefault">
+<LABEL for=extdate_id4><SPAN class="fieldlabeltextinvisible">Fecha de Extensión</SPAN></LABEL>
+<INPUT TYPE="text" NAME="extdate_tab" SIZE="16" MAXLENGTH="12" ID="extdate_id4">
+</TD>
+<TD CLASS="ntdefault">
+<LABEL for=marker_id4><SPAN class="fieldlabeltextinvisible">Nombre de Nota</SPAN></LABEL>
+<SELECT NAME="markerName_tab" SIZE="1" ID="marker_id4">
+<OPTION VALUE="596375" SELECTED>MURIEL RODRIGUEZ, RODOLFO A.
+</SELECT>
+</TD>
+<TD CLASS="ntdefault">
+<LABEL for=grdchgcde_id4><SPAN class="fieldlabeltextinvisible">Razón</SPAN></LABEL>
+<SELECT NAME="grdchgCde_tab" SIZE="1" ID="grdchgcde_id4">
+<OPTION VALUE="CS">CS-Cambio por examen supletorio
+<OPTION VALUE="HB">HB-Cambio por Habilitacion
+<OPTION VALUE="OE" SELECTED>OE-Captura Original
+<OPTION VALUE="EE">EE-Error de Ingreso
+<OPTION VALUE="CD">CD-Corrección de Docente
+<OPTION VALUE="SG">SG-Grado Sustituto
+<OPTION VALUE="SD">SD-Calificación Sistema Developer
+<OPTION VALUE="CP">CP-Cambio Plan Estudios
+<OPTION VALUE="DN">DN-Docente no Registro Nota
+<OPTION VALUE="HA">HA-Historia Académ./Homologación
+<OPTION VALUE="TL">TL-Homologacion traslado
+<OPTION VALUE="CR">CR-Capped Resit
+<OPTION VALUE="DL">DL-Degraded Late
+<OPTION VALUE="CC">CC-Composite Calculation
+<OPTION VALUE="RC">RC-Re-Calculated
+</SELECT>
+</TD>
+</TR>
+<INPUT TYPE="hidden" NAME="rowid_tab" VALUE="AABBblAAKAACdn0ABk">
+<INPUT TYPE="hidden" NAME="pidm_tab" VALUE="629167">
+<TR>
+<TD CLASS="ntdefault">5</TD>
+<TD CLASS="ntdefault">000592500</TD>
+<TD CLASS="ntdefault">CHAVES MONCALEANO, JULIANA A. <SPAN class="requirementnotmet"> Confidencial</SPAN> </TD>
+<TD CLASS="ntdefault">**Inscrito por Web**</TD>
+<TD CLASS="ntdefault">
+<LABEL for=marks_id5><SPAN class="fieldlabeltextinvisible">Puntaje</SPAN></LABEL>
+<INPUT TYPE="text" NAME="marks_tab" SIZE="7" MAXLENGTH="6" VALUE="96" ID="marks_id2"><INPUT TYPE="hidden" NAME="inclind_tab" VALUE="M">
+</TD>
+<TD CLASS="ntdefault">100</TD>
+<TD CLASS="ntdefault">96</TD>
+<TD CLASS="ntdefault">
+4.8
+<INPUT TYPE="hidden" NAME="calif_tab" VALUE="4.8">
+</TD>
+<TD CLASS="ntdefault">May 07, 2018</TD>
+<TD CLASS="ntdefault">
+<LABEL for=subdate_id5><SPAN class="fieldlabeltextinvisible">Fecha Envío</SPAN></LABEL>
+<INPUT TYPE="text" NAME="subdate_tab" SIZE="16" MAXLENGTH="12" VALUE="07/05/2018" ID="subdate_id5">
+</TD>
+<TD CLASS="ntdefault">
+<LABEL for=extdate_id5><SPAN class="fieldlabeltextinvisible">Fecha de Extensión</SPAN></LABEL>
+<INPUT TYPE="text" NAME="extdate_tab" SIZE="16" MAXLENGTH="12" ID="extdate_id5">
+</TD>
+<TD CLASS="ntdefault">
+<LABEL for=marker_id5><SPAN class="fieldlabeltextinvisible">Nombre de Nota</SPAN></LABEL>
+<SELECT NAME="markerName_tab" SIZE="1" ID="marker_id5">
+<OPTION VALUE="596375" SELECTED>MURIEL RODRIGUEZ, RODOLFO A.
+</SELECT>
+</TD>
+<TD CLASS="ntdefault">
+<LABEL for=grdchgcde_id5><SPAN class="fieldlabeltextinvisible">Razón</SPAN></LABEL>
+<SELECT NAME="grdchgCde_tab" SIZE="1" ID="grdchgcde_id5">
+<OPTION VALUE="CS">CS-Cambio por examen supletorio
+<OPTION VALUE="HB">HB-Cambio por Habilitacion
+<OPTION VALUE="OE" SELECTED>OE-Captura Original
+<OPTION VALUE="EE">EE-Error de Ingreso
+<OPTION VALUE="CD">CD-Corrección de Docente
+<OPTION VALUE="SG">SG-Grado Sustituto
+<OPTION VALUE="SD">SD-Calificación Sistema Developer
+<OPTION VALUE="CP">CP-Cambio Plan Estudios
+<OPTION VALUE="DN">DN-Docente no Registro Nota
+<OPTION VALUE="HA">HA-Historia Académ./Homologación
+<OPTION VALUE="TL">TL-Homologacion traslado
+<OPTION VALUE="CR">CR-Capped Resit
+<OPTION VALUE="DL">DL-Degraded Late
+<OPTION VALUE="CC">CC-Composite Calculation
+<OPTION VALUE="RC">RC-Re-Calculated
+</SELECT>
+</TD>
+</TR>
+<INPUT TYPE="hidden" NAME="rowid_tab" VALUE="AABBblAAKAACee5ABp">
+<INPUT TYPE="hidden" NAME="pidm_tab" VALUE="659966">
+<TR>
+<TD CLASS="ntdefault">6</TD>
+<TD CLASS="ntdefault">000623237</TD>
+<TD CLASS="ntdefault">DUQUE GARCIA, LUISA F. <SPAN class="requirementnotmet"> Confidencial</SPAN> </TD>
+<TD CLASS="ntdefault">**Inscrito por Web**</TD>
+<TD CLASS="ntdefault">
+<LABEL for=marks_id6><SPAN class="fieldlabeltextinvisible">Puntaje</SPAN></LABEL>
+<INPUT TYPE="text" NAME="marks_tab" SIZE="7" MAXLENGTH="6" VALUE="96" ID="marks_id2"><INPUT TYPE="hidden" NAME="inclind_tab" VALUE="M">
+</TD>
+<TD CLASS="ntdefault">100</TD>
+<TD CLASS="ntdefault">96</TD>
+<TD CLASS="ntdefault">
+4.8
+<INPUT TYPE="hidden" NAME="calif_tab" VALUE="4.8">
+</TD>
+<TD CLASS="ntdefault">May 07, 2018</TD>
+<TD CLASS="ntdefault">
+<LABEL for=subdate_id6><SPAN class="fieldlabeltextinvisible">Fecha Envío</SPAN></LABEL>
+<INPUT TYPE="text" NAME="subdate_tab" SIZE="16" MAXLENGTH="12" VALUE="07/05/2018" ID="subdate_id6">
+</TD>
+<TD CLASS="ntdefault">
+<LABEL for=extdate_id6><SPAN class="fieldlabeltextinvisible">Fecha de Extensión</SPAN></LABEL>
+<INPUT TYPE="text" NAME="extdate_tab" SIZE="16" MAXLENGTH="12" ID="extdate_id6">
+</TD>
+<TD CLASS="ntdefault">
+<LABEL for=marker_id6><SPAN class="fieldlabeltextinvisible">Nombre de Nota</SPAN></LABEL>
+<SELECT NAME="markerName_tab" SIZE="1" ID="marker_id6">
+<OPTION VALUE="596375" SELECTED>MURIEL RODRIGUEZ, RODOLFO A.
+</SELECT>
+</TD>
+<TD CLASS="ntdefault">
+<LABEL for=grdchgcde_id6><SPAN class="fieldlabeltextinvisible">Razón</SPAN></LABEL>
+<SELECT NAME="grdchgCde_tab" SIZE="1" ID="grdchgcde_id6">
+<OPTION VALUE="CS">CS-Cambio por examen supletorio
+<OPTION VALUE="HB">HB-Cambio por Habilitacion
+<OPTION VALUE="OE" SELECTED>OE-Captura Original
+<OPTION VALUE="EE">EE-Error de Ingreso
+<OPTION VALUE="CD">CD-Corrección de Docente
+<OPTION VALUE="SG">SG-Grado Sustituto
+<OPTION VALUE="SD">SD-Calificación Sistema Developer
+<OPTION VALUE="CP">CP-Cambio Plan Estudios
+<OPTION VALUE="DN">DN-Docente no Registro Nota
+<OPTION VALUE="HA">HA-Historia Académ./Homologación
+<OPTION VALUE="TL">TL-Homologacion traslado
+<OPTION VALUE="CR">CR-Capped Resit
+<OPTION VALUE="DL">DL-Degraded Late
+<OPTION VALUE="CC">CC-Composite Calculation
+<OPTION VALUE="RC">RC-Re-Calculated
+</SELECT>
+</TD>
+</TR>
+<INPUT TYPE="hidden" NAME="rowid_tab" VALUE="AABBblAAKAACdVrABI">
+<INPUT TYPE="hidden" NAME="pidm_tab" VALUE="483689">
+<TR>
+<TD CLASS="ntdefault">7</TD>
+<TD CLASS="ntdefault">000447476</TD>
+<TD CLASS="ntdefault">FAJARDO HOLGUIN, ANGELICA <SPAN class="requirementnotmet"> Confidencial</SPAN> </TD>
+<TD CLASS="ntdefault">**Inscrito por Web**</TD>
+<TD CLASS="ntdefault">
+<LABEL for=marks_id7><SPAN class="fieldlabeltextinvisible">Puntaje</SPAN></LABEL>
+<INPUT TYPE="text" NAME="marks_tab" SIZE="7" MAXLENGTH="6" VALUE="90" ID="marks_id2"><INPUT TYPE="hidden" NAME="inclind_tab" VALUE="M">
+</TD>
+<TD CLASS="ntdefault">100</TD>
+<TD CLASS="ntdefault">90</TD>
+<TD CLASS="ntdefault">
+4.5
+<INPUT TYPE="hidden" NAME="calif_tab" VALUE="4.5">
+</TD>
+<TD CLASS="ntdefault">May 07, 2018</TD>
+<TD CLASS="ntdefault">
+<LABEL for=subdate_id7><SPAN class="fieldlabeltextinvisible">Fecha Envío</SPAN></LABEL>
+<INPUT TYPE="text" NAME="subdate_tab" SIZE="16" MAXLENGTH="12" VALUE="07/05/2018" ID="subdate_id7">
+</TD>
+<TD CLASS="ntdefault">
+<LABEL for=extdate_id7><SPAN class="fieldlabeltextinvisible">Fecha de Extensión</SPAN></LABEL>
+<INPUT TYPE="text" NAME="extdate_tab" SIZE="16" MAXLENGTH="12" ID="extdate_id7">
+</TD>
+<TD CLASS="ntdefault">
+<LABEL for=marker_id7><SPAN class="fieldlabeltextinvisible">Nombre de Nota</SPAN></LABEL>
+<SELECT NAME="markerName_tab" SIZE="1" ID="marker_id7">
+<OPTION VALUE="596375" SELECTED>MURIEL RODRIGUEZ, RODOLFO A.
+</SELECT>
+</TD>
+<TD CLASS="ntdefault">
+<LABEL for=grdchgcde_id7><SPAN class="fieldlabeltextinvisible">Razón</SPAN></LABEL>
+<SELECT NAME="grdchgCde_tab" SIZE="1" ID="grdchgcde_id7">
+<OPTION VALUE="CS">CS-Cambio por examen supletorio
+<OPTION VALUE="HB">HB-Cambio por Habilitacion
+<OPTION VALUE="OE" SELECTED>OE-Captura Original
+<OPTION VALUE="EE">EE-Error de Ingreso
+<OPTION VALUE="CD">CD-Corrección de Docente
+<OPTION VALUE="SG">SG-Grado Sustituto
+<OPTION VALUE="SD">SD-Calificación Sistema Developer
+<OPTION VALUE="CP">CP-Cambio Plan Estudios
+<OPTION VALUE="DN">DN-Docente no Registro Nota
+<OPTION VALUE="HA">HA-Historia Académ./Homologación
+<OPTION VALUE="TL">TL-Homologacion traslado
+<OPTION VALUE="CR">CR-Capped Resit
+<OPTION VALUE="DL">DL-Degraded Late
+<OPTION VALUE="CC">CC-Composite Calculation
+<OPTION VALUE="RC">RC-Re-Calculated
+</SELECT>
+</TD>
+</TR>
+<INPUT TYPE="hidden" NAME="rowid_tab" VALUE="AABBblAAKAACekfAAj">
+<INPUT TYPE="hidden" NAME="pidm_tab" VALUE="653807">
+<TR>
+<TD CLASS="ntdefault">8</TD>
+<TD CLASS="ntdefault">000617083</TD>
+<TD CLASS="ntdefault">GOMEZ GOMEZ, LEIDY J. <SPAN class="requirementnotmet"> Confidencial</SPAN> </TD>
+<TD CLASS="ntdefault">**Inscrito por Web**</TD>
+<TD CLASS="ntdefault">
+<LABEL for=marks_id8><SPAN class="fieldlabeltextinvisible">Puntaje</SPAN></LABEL>
+<INPUT TYPE="text" NAME="marks_tab" SIZE="7" MAXLENGTH="6" VALUE="74" ID="marks_id2"><INPUT TYPE="hidden" NAME="inclind_tab" VALUE="M">
+</TD>
+<TD CLASS="ntdefault">100</TD>
+<TD CLASS="ntdefault">74</TD>
+<TD CLASS="ntdefault">
+3.7
+<INPUT TYPE="hidden" NAME="calif_tab" VALUE="3.7">
+</TD>
+<TD CLASS="ntdefault">May 07, 2018</TD>
+<TD CLASS="ntdefault">
+<LABEL for=subdate_id8><SPAN class="fieldlabeltextinvisible">Fecha Envío</SPAN></LABEL>
+<INPUT TYPE="text" NAME="subdate_tab" SIZE="16" MAXLENGTH="12" VALUE="07/05/2018" ID="subdate_id8">
+</TD>
+<TD CLASS="ntdefault">
+<LABEL for=extdate_id8><SPAN class="fieldlabeltextinvisible">Fecha de Extensión</SPAN></LABEL>
+<INPUT TYPE="text" NAME="extdate_tab" SIZE="16" MAXLENGTH="12" ID="extdate_id8">
+</TD>
+<TD CLASS="ntdefault">
+<LABEL for=marker_id8><SPAN class="fieldlabeltextinvisible">Nombre de Nota</SPAN></LABEL>
+<SELECT NAME="markerName_tab" SIZE="1" ID="marker_id8">
+<OPTION VALUE="596375" SELECTED>MURIEL RODRIGUEZ, RODOLFO A.
+</SELECT>
+</TD>
+<TD CLASS="ntdefault">
+<LABEL for=grdchgcde_id8><SPAN class="fieldlabeltextinvisible">Razón</SPAN></LABEL>
+<SELECT NAME="grdchgCde_tab" SIZE="1" ID="grdchgcde_id8">
+<OPTION VALUE="CS">CS-Cambio por examen supletorio
+<OPTION VALUE="HB">HB-Cambio por Habilitacion
+<OPTION VALUE="OE" SELECTED>OE-Captura Original
+<OPTION VALUE="EE">EE-Error de Ingreso
+<OPTION VALUE="CD">CD-Corrección de Docente
+<OPTION VALUE="SG">SG-Grado Sustituto
+<OPTION VALUE="SD">SD-Calificación Sistema Developer
+<OPTION VALUE="CP">CP-Cambio Plan Estudios
+<OPTION VALUE="DN">DN-Docente no Registro Nota
+<OPTION VALUE="HA">HA-Historia Académ./Homologación
+<OPTION VALUE="TL">TL-Homologacion traslado
+<OPTION VALUE="CR">CR-Capped Resit
+<OPTION VALUE="DL">DL-Degraded Late
+<OPTION VALUE="CC">CC-Composite Calculation
+<OPTION VALUE="RC">RC-Re-Calculated
+</SELECT>
+</TD>
+</TR>
+<INPUT TYPE="hidden" NAME="rowid_tab" VALUE="AABBblAAKAACdQbABS">
+<INPUT TYPE="hidden" NAME="pidm_tab" VALUE="629092">
+<TR>
+<TD CLASS="ntdefault">9</TD>
+<TD CLASS="ntdefault">000592426</TD>
+<TD CLASS="ntdefault">JARAMILLO BEDOYA, JENNY N. <SPAN class="requirementnotmet"> Confidencial</SPAN> </TD>
+<TD CLASS="ntdefault">**Inscrito por Web**</TD>
+<TD CLASS="ntdefault">
+<LABEL for=marks_id9><SPAN class="fieldlabeltextinvisible">Puntaje</SPAN></LABEL>
+<INPUT TYPE="text" NAME="marks_tab" SIZE="7" MAXLENGTH="6" VALUE="78" ID="marks_id2"><INPUT TYPE="hidden" NAME="inclind_tab" VALUE="M">
+</TD>
+<TD CLASS="ntdefault">100</TD>
+<TD CLASS="ntdefault">78</TD>
+<TD CLASS="ntdefault">
+3.9
+<INPUT TYPE="hidden" NAME="calif_tab" VALUE="3.9">
+</TD>
+<TD CLASS="ntdefault">May 07, 2018</TD>
+<TD CLASS="ntdefault">
+<LABEL for=subdate_id9><SPAN class="fieldlabeltextinvisible">Fecha Envío</SPAN></LABEL>
+<INPUT TYPE="text" NAME="subdate_tab" SIZE="16" MAXLENGTH="12" VALUE="07/05/2018" ID="subdate_id9">
+</TD>
+<TD CLASS="ntdefault">
+<LABEL for=extdate_id9><SPAN class="fieldlabeltextinvisible">Fecha de Extensión</SPAN></LABEL>
+<INPUT TYPE="text" NAME="extdate_tab" SIZE="16" MAXLENGTH="12" ID="extdate_id9">
+</TD>
+<TD CLASS="ntdefault">
+<LABEL for=marker_id9><SPAN class="fieldlabeltextinvisible">Nombre de Nota</SPAN></LABEL>
+<SELECT NAME="markerName_tab" SIZE="1" ID="marker_id9">
+<OPTION VALUE="596375" SELECTED>MURIEL RODRIGUEZ, RODOLFO A.
+</SELECT>
+</TD>
+<TD CLASS="ntdefault">
+<LABEL for=grdchgcde_id9><SPAN class="fieldlabeltextinvisible">Razón</SPAN></LABEL>
+<SELECT NAME="grdchgCde_tab" SIZE="1" ID="grdchgcde_id9">
+<OPTION VALUE="CS">CS-Cambio por examen supletorio
+<OPTION VALUE="HB">HB-Cambio por Habilitacion
+<OPTION VALUE="OE" SELECTED>OE-Captura Original
+<OPTION VALUE="EE">EE-Error de Ingreso
+<OPTION VALUE="CD">CD-Corrección de Docente
+<OPTION VALUE="SG">SG-Grado Sustituto
+<OPTION VALUE="SD">SD-Calificación Sistema Developer
+<OPTION VALUE="CP">CP-Cambio Plan Estudios
+<OPTION VALUE="DN">DN-Docente no Registro Nota
+<OPTION VALUE="HA">HA-Historia Académ./Homologación
+<OPTION VALUE="TL">TL-Homologacion traslado
+<OPTION VALUE="CR">CR-Capped Resit
+<OPTION VALUE="DL">DL-Degraded Late
+<OPTION VALUE="CC">CC-Composite Calculation
+<OPTION VALUE="RC">RC-Re-Calculated
+</SELECT>
+</TD>
+</TR>
+<INPUT TYPE="hidden" NAME="rowid_tab" VALUE="AABBblAAKAACdXYABp">
+<INPUT TYPE="hidden" NAME="pidm_tab" VALUE="641926">
+<TR>
+<TD CLASS="ntdefault">10</TD>
+<TD CLASS="ntdefault">000605221</TD>
+<TD CLASS="ntdefault">LOPEZ BOLIVAR, GUSTAVO A. <SPAN class="requirementnotmet"> Confidencial</SPAN> </TD>
+<TD CLASS="ntdefault">**Inscrito por Web**</TD>
+<TD CLASS="ntdefault">
+<LABEL for=marks_id10><SPAN class="fieldlabeltextinvisible">Puntaje</SPAN></LABEL>
+<INPUT TYPE="text" NAME="marks_tab" SIZE="7" MAXLENGTH="6" VALUE="18" ID="marks_id2"><INPUT TYPE="hidden" NAME="inclind_tab" VALUE="M">
+</TD>
+<TD CLASS="ntdefault">100</TD>
+<TD CLASS="ntdefault">18</TD>
+<TD CLASS="ntdefault">
+0.9
+<INPUT TYPE="hidden" NAME="calif_tab" VALUE="0.9">
+</TD>
+<TD CLASS="ntdefault">May 07, 2018</TD>
+<TD CLASS="ntdefault">
+<LABEL for=subdate_id10><SPAN class="fieldlabeltextinvisible">Fecha Envío</SPAN></LABEL>
+<INPUT TYPE="text" NAME="subdate_tab" SIZE="16" MAXLENGTH="12" VALUE="07/05/2018" ID="subdate_id10">
+</TD>
+<TD CLASS="ntdefault">
+<LABEL for=extdate_id10><SPAN class="fieldlabeltextinvisible">Fecha de Extensión</SPAN></LABEL>
+<INPUT TYPE="text" NAME="extdate_tab" SIZE="16" MAXLENGTH="12" ID="extdate_id10">
+</TD>
+<TD CLASS="ntdefault">
+<LABEL for=marker_id10><SPAN class="fieldlabeltextinvisible">Nombre de Nota</SPAN></LABEL>
+<SELECT NAME="markerName_tab" SIZE="1" ID="marker_id10">
+<OPTION VALUE="596375" SELECTED>MURIEL RODRIGUEZ, RODOLFO A.
+</SELECT>
+</TD>
+<TD CLASS="ntdefault">
+<LABEL for=grdchgcde_id10><SPAN class="fieldlabeltextinvisible">Razón</SPAN></LABEL>
+<SELECT NAME="grdchgCde_tab" SIZE="1" ID="grdchgcde_id10">
+<OPTION VALUE="CS">CS-Cambio por examen supletorio
+<OPTION VALUE="HB">HB-Cambio por Habilitacion
+<OPTION VALUE="OE" SELECTED>OE-Captura Original
+<OPTION VALUE="EE">EE-Error de Ingreso
+<OPTION VALUE="CD">CD-Corrección de Docente
+<OPTION VALUE="SG">SG-Grado Sustituto
+<OPTION VALUE="SD">SD-Calificación Sistema Developer
+<OPTION VALUE="CP">CP-Cambio Plan Estudios
+<OPTION VALUE="DN">DN-Docente no Registro Nota
+<OPTION VALUE="HA">HA-Historia Académ./Homologación
+<OPTION VALUE="TL">TL-Homologacion traslado
+<OPTION VALUE="CR">CR-Capped Resit
+<OPTION VALUE="DL">DL-Degraded Late
+<OPTION VALUE="CC">CC-Composite Calculation
+<OPTION VALUE="RC">RC-Re-Calculated
+</SELECT>
+</TD>
+</TR>
+<INPUT TYPE="hidden" NAME="rowid_tab" VALUE="AABBblAAKAACebyABF">
+<INPUT TYPE="hidden" NAME="pidm_tab" VALUE="650529">
+<TR>
+<TD CLASS="ntdefault">11</TD>
+<TD CLASS="ntdefault">000613809</TD>
+<TD CLASS="ntdefault">NARANJO GIRALDO, MONICA J. <SPAN class="requirementnotmet"> Confidencial</SPAN> </TD>
+<TD CLASS="ntdefault">**Inscrito por Web**</TD>
+<TD CLASS="ntdefault">
+<LABEL for=marks_id11><SPAN class="fieldlabeltextinvisible">Puntaje</SPAN></LABEL>
+<INPUT TYPE="text" NAME="marks_tab" SIZE="7" MAXLENGTH="6" VALUE="66" ID="marks_id2"><INPUT TYPE="hidden" NAME="inclind_tab" VALUE="M">
+</TD>
+<TD CLASS="ntdefault">100</TD>
+<TD CLASS="ntdefault">66</TD>
+<TD CLASS="ntdefault">
+3.3
+<INPUT TYPE="hidden" NAME="calif_tab" VALUE="3.3">
+</TD>
+<TD CLASS="ntdefault">May 07, 2018</TD>
+<TD CLASS="ntdefault">
+<LABEL for=subdate_id11><SPAN class="fieldlabeltextinvisible">Fecha Envío</SPAN></LABEL>
+<INPUT TYPE="text" NAME="subdate_tab" SIZE="16" MAXLENGTH="12" VALUE="07/05/2018" ID="subdate_id11">
+</TD>
+<TD CLASS="ntdefault">
+<LABEL for=extdate_id11><SPAN class="fieldlabeltextinvisible">Fecha de Extensión</SPAN></LABEL>
+<INPUT TYPE="text" NAME="extdate_tab" SIZE="16" MAXLENGTH="12" ID="extdate_id11">
+</TD>
+<TD CLASS="ntdefault">
+<LABEL for=marker_id11><SPAN class="fieldlabeltextinvisible">Nombre de Nota</SPAN></LABEL>
+<SELECT NAME="markerName_tab" SIZE="1" ID="marker_id11">
+<OPTION VALUE="596375" SELECTED>MURIEL RODRIGUEZ, RODOLFO A.
+</SELECT>
+</TD>
+<TD CLASS="ntdefault">
+<LABEL for=grdchgcde_id11><SPAN class="fieldlabeltextinvisible">Razón</SPAN></LABEL>
+<SELECT NAME="grdchgCde_tab" SIZE="1" ID="grdchgcde_id11">
+<OPTION VALUE="CS">CS-Cambio por examen supletorio
+<OPTION VALUE="HB">HB-Cambio por Habilitacion
+<OPTION VALUE="OE" SELECTED>OE-Captura Original
+<OPTION VALUE="EE">EE-Error de Ingreso
+<OPTION VALUE="CD">CD-Corrección de Docente
+<OPTION VALUE="SG">SG-Grado Sustituto
+<OPTION VALUE="SD">SD-Calificación Sistema Developer
+<OPTION VALUE="CP">CP-Cambio Plan Estudios
+<OPTION VALUE="DN">DN-Docente no Registro Nota
+<OPTION VALUE="HA">HA-Historia Académ./Homologación
+<OPTION VALUE="TL">TL-Homologacion traslado
+<OPTION VALUE="CR">CR-Capped Resit
+<OPTION VALUE="DL">DL-Degraded Late
+<OPTION VALUE="CC">CC-Composite Calculation
+<OPTION VALUE="RC">RC-Re-Calculated
+</SELECT>
+</TD>
+</TR>
+<INPUT TYPE="hidden" NAME="rowid_tab" VALUE="AABBblAAKAACdB7AAu">
+<INPUT TYPE="hidden" NAME="pidm_tab" VALUE="648924">
+<TR>
+<TD CLASS="ntdefault">12</TD>
+<TD CLASS="ntdefault">000612205</TD>
+<TD CLASS="ntdefault">OCAMPO HENAO, CAMILA A. <SPAN class="requirementnotmet"> Confidencial</SPAN> </TD>
+<TD CLASS="ntdefault">**Inscrito por Web**</TD>
+<TD CLASS="ntdefault">
+<LABEL for=marks_id12><SPAN class="fieldlabeltextinvisible">Puntaje</SPAN></LABEL>
+<INPUT TYPE="text" NAME="marks_tab" SIZE="7" MAXLENGTH="6" VALUE="78" ID="marks_id2"><INPUT TYPE="hidden" NAME="inclind_tab" VALUE="M">
+</TD>
+<TD CLASS="ntdefault">100</TD>
+<TD CLASS="ntdefault">78</TD>
+<TD CLASS="ntdefault">
+3.9
+<INPUT TYPE="hidden" NAME="calif_tab" VALUE="3.9">
+</TD>
+<TD CLASS="ntdefault">May 07, 2018</TD>
+<TD CLASS="ntdefault">
+<LABEL for=subdate_id12><SPAN class="fieldlabeltextinvisible">Fecha Envío</SPAN></LABEL>
+<INPUT TYPE="text" NAME="subdate_tab" SIZE="16" MAXLENGTH="12" VALUE="07/05/2018" ID="subdate_id12">
+</TD>
+<TD CLASS="ntdefault">
+<LABEL for=extdate_id12><SPAN class="fieldlabeltextinvisible">Fecha de Extensión</SPAN></LABEL>
+<INPUT TYPE="text" NAME="extdate_tab" SIZE="16" MAXLENGTH="12" ID="extdate_id12">
+</TD>
+<TD CLASS="ntdefault">
+<LABEL for=marker_id12><SPAN class="fieldlabeltextinvisible">Nombre de Nota</SPAN></LABEL>
+<SELECT NAME="markerName_tab" SIZE="1" ID="marker_id12">
+<OPTION VALUE="596375" SELECTED>MURIEL RODRIGUEZ, RODOLFO A.
+</SELECT>
+</TD>
+<TD CLASS="ntdefault">
+<LABEL for=grdchgcde_id12><SPAN class="fieldlabeltextinvisible">Razón</SPAN></LABEL>
+<SELECT NAME="grdchgCde_tab" SIZE="1" ID="grdchgcde_id12">
+<OPTION VALUE="CS">CS-Cambio por examen supletorio
+<OPTION VALUE="HB">HB-Cambio por Habilitacion
+<OPTION VALUE="OE" SELECTED>OE-Captura Original
+<OPTION VALUE="EE">EE-Error de Ingreso
+<OPTION VALUE="CD">CD-Corrección de Docente
+<OPTION VALUE="SG">SG-Grado Sustituto
+<OPTION VALUE="SD">SD-Calificación Sistema Developer
+<OPTION VALUE="CP">CP-Cambio Plan Estudios
+<OPTION VALUE="DN">DN-Docente no Registro Nota
+<OPTION VALUE="HA">HA-Historia Académ./Homologación
+<OPTION VALUE="TL">TL-Homologacion traslado
+<OPTION VALUE="CR">CR-Capped Resit
+<OPTION VALUE="DL">DL-Degraded Late
+<OPTION VALUE="CC">CC-Composite Calculation
+<OPTION VALUE="RC">RC-Re-Calculated
+</SELECT>
+</TD>
+</TR>
+<INPUT TYPE="hidden" NAME="rowid_tab" VALUE="AABBblAAKAACeT8AAK">
+<INPUT TYPE="hidden" NAME="pidm_tab" VALUE="648013">
+<TR>
+<TD CLASS="ntdefault">13</TD>
+<TD CLASS="ntdefault">000611294</TD>
+<TD CLASS="ntdefault">OSPINA VELEZ, JHONHATAN A. <SPAN class="requirementnotmet"> Confidencial</SPAN> </TD>
+<TD CLASS="ntdefault">**Inscrito por Web**</TD>
+<TD CLASS="ntdefault">
+<LABEL for=marks_id13><SPAN class="fieldlabeltextinvisible">Puntaje</SPAN></LABEL>
+<INPUT TYPE="text" NAME="marks_tab" SIZE="7" MAXLENGTH="6" VALUE="90" ID="marks_id2"><INPUT TYPE="hidden" NAME="inclind_tab" VALUE="M">
+</TD>
+<TD CLASS="ntdefault">100</TD>
+<TD CLASS="ntdefault">90</TD>
+<TD CLASS="ntdefault">
+4.5
+<INPUT TYPE="hidden" NAME="calif_tab" VALUE="4.5">
+</TD>
+<TD CLASS="ntdefault">May 07, 2018</TD>
+<TD CLASS="ntdefault">
+<LABEL for=subdate_id13><SPAN class="fieldlabeltextinvisible">Fecha Envío</SPAN></LABEL>
+<INPUT TYPE="text" NAME="subdate_tab" SIZE="16" MAXLENGTH="12" VALUE="07/05/2018" ID="subdate_id13">
+</TD>
+<TD CLASS="ntdefault">
+<LABEL for=extdate_id13><SPAN class="fieldlabeltextinvisible">Fecha de Extensión</SPAN></LABEL>
+<INPUT TYPE="text" NAME="extdate_tab" SIZE="16" MAXLENGTH="12" ID="extdate_id13">
+</TD>
+<TD CLASS="ntdefault">
+<LABEL for=marker_id13><SPAN class="fieldlabeltextinvisible">Nombre de Nota</SPAN></LABEL>
+<SELECT NAME="markerName_tab" SIZE="1" ID="marker_id13">
+<OPTION VALUE="596375" SELECTED>MURIEL RODRIGUEZ, RODOLFO A.
+</SELECT>
+</TD>
+<TD CLASS="ntdefault">
+<LABEL for=grdchgcde_id13><SPAN class="fieldlabeltextinvisible">Razón</SPAN></LABEL>
+<SELECT NAME="grdchgCde_tab" SIZE="1" ID="grdchgcde_id13">
+<OPTION VALUE="CS">CS-Cambio por examen supletorio
+<OPTION VALUE="HB">HB-Cambio por Habilitacion
+<OPTION VALUE="OE" SELECTED>OE-Captura Original
+<OPTION VALUE="EE">EE-Error de Ingreso
+<OPTION VALUE="CD">CD-Corrección de Docente
+<OPTION VALUE="SG">SG-Grado Sustituto
+<OPTION VALUE="SD">SD-Calificación Sistema Developer
+<OPTION VALUE="CP">CP-Cambio Plan Estudios
+<OPTION VALUE="DN">DN-Docente no Registro Nota
+<OPTION VALUE="HA">HA-Historia Académ./Homologación
+<OPTION VALUE="TL">TL-Homologacion traslado
+<OPTION VALUE="CR">CR-Capped Resit
+<OPTION VALUE="DL">DL-Degraded Late
+<OPTION VALUE="CC">CC-Composite Calculation
+<OPTION VALUE="RC">RC-Re-Calculated
+</SELECT>
+</TD>
+</TR>
+<INPUT TYPE="hidden" NAME="rowid_tab" VALUE="AABBblAAKAACdZ0ABn">
+<INPUT TYPE="hidden" NAME="pidm_tab" VALUE="650633">
+<TR>
+<TD CLASS="ntdefault">14</TD>
+<TD CLASS="ntdefault">000613913</TD>
+<TD CLASS="ntdefault">PINEDA PEREZ, SANTIAGO <SPAN class="requirementnotmet"> Confidencial</SPAN> </TD>
+<TD CLASS="ntdefault">**Inscrito por Web**</TD>
+<TD CLASS="ntdefault">
+<LABEL for=marks_id14><SPAN class="fieldlabeltextinvisible">Puntaje</SPAN></LABEL>
+<INPUT TYPE="text" NAME="marks_tab" SIZE="7" MAXLENGTH="6" VALUE="84" ID="marks_id2"><INPUT TYPE="hidden" NAME="inclind_tab" VALUE="M">
+</TD>
+<TD CLASS="ntdefault">100</TD>
+<TD CLASS="ntdefault">84</TD>
+<TD CLASS="ntdefault">
+4.2
+<INPUT TYPE="hidden" NAME="calif_tab" VALUE="4.2">
+</TD>
+<TD CLASS="ntdefault">May 07, 2018</TD>
+<TD CLASS="ntdefault">
+<LABEL for=subdate_id14><SPAN class="fieldlabeltextinvisible">Fecha Envío</SPAN></LABEL>
+<INPUT TYPE="text" NAME="subdate_tab" SIZE="16" MAXLENGTH="12" VALUE="07/05/2018" ID="subdate_id14">
+</TD>
+<TD CLASS="ntdefault">
+<LABEL for=extdate_id14><SPAN class="fieldlabeltextinvisible">Fecha de Extensión</SPAN></LABEL>
+<INPUT TYPE="text" NAME="extdate_tab" SIZE="16" MAXLENGTH="12" ID="extdate_id14">
+</TD>
+<TD CLASS="ntdefault">
+<LABEL for=marker_id14><SPAN class="fieldlabeltextinvisible">Nombre de Nota</SPAN></LABEL>
+<SELECT NAME="markerName_tab" SIZE="1" ID="marker_id14">
+<OPTION VALUE="596375" SELECTED>MURIEL RODRIGUEZ, RODOLFO A.
+</SELECT>
+</TD>
+<TD CLASS="ntdefault">
+<LABEL for=grdchgcde_id14><SPAN class="fieldlabeltextinvisible">Razón</SPAN></LABEL>
+<SELECT NAME="grdchgCde_tab" SIZE="1" ID="grdchgcde_id14">
+<OPTION VALUE="CS">CS-Cambio por examen supletorio
+<OPTION VALUE="HB">HB-Cambio por Habilitacion
+<OPTION VALUE="OE" SELECTED>OE-Captura Original
+<OPTION VALUE="EE">EE-Error de Ingreso
+<OPTION VALUE="CD">CD-Corrección de Docente
+<OPTION VALUE="SG">SG-Grado Sustituto
+<OPTION VALUE="SD">SD-Calificación Sistema Developer
+<OPTION VALUE="CP">CP-Cambio Plan Estudios
+<OPTION VALUE="DN">DN-Docente no Registro Nota
+<OPTION VALUE="HA">HA-Historia Académ./Homologación
+<OPTION VALUE="TL">TL-Homologacion traslado
+<OPTION VALUE="CR">CR-Capped Resit
+<OPTION VALUE="DL">DL-Degraded Late
+<OPTION VALUE="CC">CC-Composite Calculation
+<OPTION VALUE="RC">RC-Re-Calculated
+</SELECT>
+</TD>
+</TR>
+<INPUT TYPE="hidden" NAME="rowid_tab" VALUE="AABBblAAKAACeDmABR">
+<INPUT TYPE="hidden" NAME="pidm_tab" VALUE="400927">
+<TR>
+<TD CLASS="ntdefault">15</TD>
+<TD CLASS="ntdefault">000365277</TD>
+<TD CLASS="ntdefault">RAMIREZ TREJOS, ADRIANA M. <SPAN class="requirementnotmet"> Confidencial</SPAN> </TD>
+<TD CLASS="ntdefault">**Inscrito por Web**</TD>
+<TD CLASS="ntdefault">
+<LABEL for=marks_id15><SPAN class="fieldlabeltextinvisible">Puntaje</SPAN></LABEL>
+<INPUT TYPE="text" NAME="marks_tab" SIZE="7" MAXLENGTH="6" VALUE="58" ID="marks_id2"><INPUT TYPE="hidden" NAME="inclind_tab" VALUE="M">
+</TD>
+<TD CLASS="ntdefault">100</TD>
+<TD CLASS="ntdefault">58</TD>
+<TD CLASS="ntdefault">
+2.9
+<INPUT TYPE="hidden" NAME="calif_tab" VALUE="2.9">
+</TD>
+<TD CLASS="ntdefault">May 07, 2018</TD>
+<TD CLASS="ntdefault">
+<LABEL for=subdate_id15><SPAN class="fieldlabeltextinvisible">Fecha Envío</SPAN></LABEL>
+<INPUT TYPE="text" NAME="subdate_tab" SIZE="16" MAXLENGTH="12" VALUE="07/05/2018" ID="subdate_id15">
+</TD>
+<TD CLASS="ntdefault">
+<LABEL for=extdate_id15><SPAN class="fieldlabeltextinvisible">Fecha de Extensión</SPAN></LABEL>
+<INPUT TYPE="text" NAME="extdate_tab" SIZE="16" MAXLENGTH="12" ID="extdate_id15">
+</TD>
+<TD CLASS="ntdefault">
+<LABEL for=marker_id15><SPAN class="fieldlabeltextinvisible">Nombre de Nota</SPAN></LABEL>
+<SELECT NAME="markerName_tab" SIZE="1" ID="marker_id15">
+<OPTION VALUE="596375" SELECTED>MURIEL RODRIGUEZ, RODOLFO A.
+</SELECT>
+</TD>
+<TD CLASS="ntdefault">
+<LABEL for=grdchgcde_id15><SPAN class="fieldlabeltextinvisible">Razón</SPAN></LABEL>
+<SELECT NAME="grdchgCde_tab" SIZE="1" ID="grdchgcde_id15">
+<OPTION VALUE="CS">CS-Cambio por examen supletorio
+<OPTION VALUE="HB">HB-Cambio por Habilitacion
+<OPTION VALUE="OE" SELECTED>OE-Captura Original
+<OPTION VALUE="EE">EE-Error de Ingreso
+<OPTION VALUE="CD">CD-Corrección de Docente
+<OPTION VALUE="SG">SG-Grado Sustituto
+<OPTION VALUE="SD">SD-Calificación Sistema Developer
+<OPTION VALUE="CP">CP-Cambio Plan Estudios
+<OPTION VALUE="DN">DN-Docente no Registro Nota
+<OPTION VALUE="HA">HA-Historia Académ./Homologación
+<OPTION VALUE="TL">TL-Homologacion traslado
+<OPTION VALUE="CR">CR-Capped Resit
+<OPTION VALUE="DL">DL-Degraded Late
+<OPTION VALUE="CC">CC-Composite Calculation
+<OPTION VALUE="RC">RC-Re-Calculated
+</SELECT>
+</TD>
+</TR>
+<INPUT TYPE="hidden" NAME="rowid_tab" VALUE="AABBblAAKAACeDuABm">
+<INPUT TYPE="hidden" NAME="pidm_tab" VALUE="650720">
+<TR>
+<TD CLASS="ntdefault">16</TD>
+<TD CLASS="ntdefault">000614000</TD>
+<TD CLASS="ntdefault">RESTREPO TAMANIS, GERALDINE <SPAN class="requirementnotmet"> Confidencial</SPAN> </TD>
+<TD CLASS="ntdefault">**Inscrito por Web**</TD>
+<TD CLASS="ntdefault">
+<LABEL for=marks_id16><SPAN class="fieldlabeltextinvisible">Puntaje</SPAN></LABEL>
+<INPUT TYPE="text" NAME="marks_tab" SIZE="7" MAXLENGTH="6" VALUE="82" ID="marks_id2"><INPUT TYPE="hidden" NAME="inclind_tab" VALUE="M">
+</TD>
+<TD CLASS="ntdefault">100</TD>
+<TD CLASS="ntdefault">82</TD>
+<TD CLASS="ntdefault">
+4.1
+<INPUT TYPE="hidden" NAME="calif_tab" VALUE="4.1">
+</TD>
+<TD CLASS="ntdefault">May 07, 2018</TD>
+<TD CLASS="ntdefault">
+<LABEL for=subdate_id16><SPAN class="fieldlabeltextinvisible">Fecha Envío</SPAN></LABEL>
+<INPUT TYPE="text" NAME="subdate_tab" SIZE="16" MAXLENGTH="12" VALUE="07/05/2018" ID="subdate_id16">
+</TD>
+<TD CLASS="ntdefault">
+<LABEL for=extdate_id16><SPAN class="fieldlabeltextinvisible">Fecha de Extensión</SPAN></LABEL>
+<INPUT TYPE="text" NAME="extdate_tab" SIZE="16" MAXLENGTH="12" ID="extdate_id16">
+</TD>
+<TD CLASS="ntdefault">
+<LABEL for=marker_id16><SPAN class="fieldlabeltextinvisible">Nombre de Nota</SPAN></LABEL>
+<SELECT NAME="markerName_tab" SIZE="1" ID="marker_id16">
+<OPTION VALUE="596375" SELECTED>MURIEL RODRIGUEZ, RODOLFO A.
+</SELECT>
+</TD>
+<TD CLASS="ntdefault">
+<LABEL for=grdchgcde_id16><SPAN class="fieldlabeltextinvisible">Razón</SPAN></LABEL>
+<SELECT NAME="grdchgCde_tab" SIZE="1" ID="grdchgcde_id16">
+<OPTION VALUE="CS">CS-Cambio por examen supletorio
+<OPTION VALUE="HB">HB-Cambio por Habilitacion
+<OPTION VALUE="OE" SELECTED>OE-Captura Original
+<OPTION VALUE="EE">EE-Error de Ingreso
+<OPTION VALUE="CD">CD-Corrección de Docente
+<OPTION VALUE="SG">SG-Grado Sustituto
+<OPTION VALUE="SD">SD-Calificación Sistema Developer
+<OPTION VALUE="CP">CP-Cambio Plan Estudios
+<OPTION VALUE="DN">DN-Docente no Registro Nota
+<OPTION VALUE="HA">HA-Historia Académ./Homologación
+<OPTION VALUE="TL">TL-Homologacion traslado
+<OPTION VALUE="CR">CR-Capped Resit
+<OPTION VALUE="DL">DL-Degraded Late
+<OPTION VALUE="CC">CC-Composite Calculation
+<OPTION VALUE="RC">RC-Re-Calculated
+</SELECT>
+</TD>
+</TR>
+<INPUT TYPE="hidden" NAME="rowid_tab" VALUE="AABBblAAKAACdIEABh">
+<INPUT TYPE="hidden" NAME="pidm_tab" VALUE="656794">
+<TR>
+<TD CLASS="ntdefault">17</TD>
+<TD CLASS="ntdefault">000620067</TD>
+<TD CLASS="ntdefault">RIAÑO PEREZ, DAVID M. <SPAN class="requirementnotmet"> Confidencial</SPAN> </TD>
+<TD CLASS="ntdefault">**Inscrito por Web**</TD>
+<TD CLASS="ntdefault">
+<LABEL for=marks_id17><SPAN class="fieldlabeltextinvisible">Puntaje</SPAN></LABEL>
+<INPUT TYPE="text" NAME="marks_tab" SIZE="7" MAXLENGTH="6" VALUE="46" ID="marks_id2"><INPUT TYPE="hidden" NAME="inclind_tab" VALUE="M">
+</TD>
+<TD CLASS="ntdefault">100</TD>
+<TD CLASS="ntdefault">46</TD>
+<TD CLASS="ntdefault">
+2.3
+<INPUT TYPE="hidden" NAME="calif_tab" VALUE="2.3">
+</TD>
+<TD CLASS="ntdefault">May 07, 2018</TD>
+<TD CLASS="ntdefault">
+<LABEL for=subdate_id17><SPAN class="fieldlabeltextinvisible">Fecha Envío</SPAN></LABEL>
+<INPUT TYPE="text" NAME="subdate_tab" SIZE="16" MAXLENGTH="12" VALUE="07/05/2018" ID="subdate_id17">
+</TD>
+<TD CLASS="ntdefault">
+<LABEL for=extdate_id17><SPAN class="fieldlabeltextinvisible">Fecha de Extensión</SPAN></LABEL>
+<INPUT TYPE="text" NAME="extdate_tab" SIZE="16" MAXLENGTH="12" ID="extdate_id17">
+</TD>
+<TD CLASS="ntdefault">
+<LABEL for=marker_id17><SPAN class="fieldlabeltextinvisible">Nombre de Nota</SPAN></LABEL>
+<SELECT NAME="markerName_tab" SIZE="1" ID="marker_id17">
+<OPTION VALUE="596375" SELECTED>MURIEL RODRIGUEZ, RODOLFO A.
+</SELECT>
+</TD>
+<TD CLASS="ntdefault">
+<LABEL for=grdchgcde_id17><SPAN class="fieldlabeltextinvisible">Razón</SPAN></LABEL>
+<SELECT NAME="grdchgCde_tab" SIZE="1" ID="grdchgcde_id17">
+<OPTION VALUE="CS">CS-Cambio por examen supletorio
+<OPTION VALUE="HB">HB-Cambio por Habilitacion
+<OPTION VALUE="OE" SELECTED>OE-Captura Original
+<OPTION VALUE="EE">EE-Error de Ingreso
+<OPTION VALUE="CD">CD-Corrección de Docente
+<OPTION VALUE="SG">SG-Grado Sustituto
+<OPTION VALUE="SD">SD-Calificación Sistema Developer
+<OPTION VALUE="CP">CP-Cambio Plan Estudios
+<OPTION VALUE="DN">DN-Docente no Registro Nota
+<OPTION VALUE="HA">HA-Historia Académ./Homologación
+<OPTION VALUE="TL">TL-Homologacion traslado
+<OPTION VALUE="CR">CR-Capped Resit
+<OPTION VALUE="DL">DL-Degraded Late
+<OPTION VALUE="CC">CC-Composite Calculation
+<OPTION VALUE="RC">RC-Re-Calculated
+</SELECT>
+</TD>
+</TR>
+<INPUT TYPE="hidden" NAME="rowid_tab" VALUE="AABBblAAKAACdw2AAZ">
+<INPUT TYPE="hidden" NAME="pidm_tab" VALUE="666187">
+<TR>
+<TD CLASS="ntdefault">18</TD>
+<TD CLASS="ntdefault">000629448</TD>
+<TD CLASS="ntdefault">RIOS VELASQUES, VIVIANA <SPAN class="requirementnotmet"> Confidencial</SPAN> </TD>
+<TD CLASS="ntdefault">**Inscrito por Web**</TD>
+<TD CLASS="ntdefault">
+<LABEL for=marks_id18><SPAN class="fieldlabeltextinvisible">Puntaje</SPAN></LABEL>
+<INPUT TYPE="text" NAME="marks_tab" SIZE="7" MAXLENGTH="6" VALUE="98" ID="marks_id2"><INPUT TYPE="hidden" NAME="inclind_tab" VALUE="M">
+</TD>
+<TD CLASS="ntdefault">100</TD>
+<TD CLASS="ntdefault">98</TD>
+<TD CLASS="ntdefault">
+4.9
+<INPUT TYPE="hidden" NAME="calif_tab" VALUE="4.9">
+</TD>
+<TD CLASS="ntdefault">May 07, 2018</TD>
+<TD CLASS="ntdefault">
+<LABEL for=subdate_id18><SPAN class="fieldlabeltextinvisible">Fecha Envío</SPAN></LABEL>
+<INPUT TYPE="text" NAME="subdate_tab" SIZE="16" MAXLENGTH="12" VALUE="07/05/2018" ID="subdate_id18">
+</TD>
+<TD CLASS="ntdefault">
+<LABEL for=extdate_id18><SPAN class="fieldlabeltextinvisible">Fecha de Extensión</SPAN></LABEL>
+<INPUT TYPE="text" NAME="extdate_tab" SIZE="16" MAXLENGTH="12" ID="extdate_id18">
+</TD>
+<TD CLASS="ntdefault">
+<LABEL for=marker_id18><SPAN class="fieldlabeltextinvisible">Nombre de Nota</SPAN></LABEL>
+<SELECT NAME="markerName_tab" SIZE="1" ID="marker_id18">
+<OPTION VALUE="596375" SELECTED>MURIEL RODRIGUEZ, RODOLFO A.
+</SELECT>
+</TD>
+<TD CLASS="ntdefault">
+<LABEL for=grdchgcde_id18><SPAN class="fieldlabeltextinvisible">Razón</SPAN></LABEL>
+<SELECT NAME="grdchgCde_tab" SIZE="1" ID="grdchgcde_id18">
+<OPTION VALUE="CS">CS-Cambio por examen supletorio
+<OPTION VALUE="HB">HB-Cambio por Habilitacion
+<OPTION VALUE="OE" SELECTED>OE-Captura Original
+<OPTION VALUE="EE">EE-Error de Ingreso
+<OPTION VALUE="CD">CD-Corrección de Docente
+<OPTION VALUE="SG">SG-Grado Sustituto
+<OPTION VALUE="SD">SD-Calificación Sistema Developer
+<OPTION VALUE="CP">CP-Cambio Plan Estudios
+<OPTION VALUE="DN">DN-Docente no Registro Nota
+<OPTION VALUE="HA">HA-Historia Académ./Homologación
+<OPTION VALUE="TL">TL-Homologacion traslado
+<OPTION VALUE="CR">CR-Capped Resit
+<OPTION VALUE="DL">DL-Degraded Late
+<OPTION VALUE="CC">CC-Composite Calculation
+<OPTION VALUE="RC">RC-Re-Calculated
+</SELECT>
+</TD>
+</TR>
+<INPUT TYPE="hidden" NAME="rowid_tab" VALUE="AABBblAAKAACdiUABj">
+<INPUT TYPE="hidden" NAME="pidm_tab" VALUE="629254">
+<TR>
+<TD CLASS="ntdefault">19</TD>
+<TD CLASS="ntdefault">000592587</TD>
+<TD CLASS="ntdefault">VELEZ MONCADA, CARMEN P. <SPAN class="requirementnotmet"> Confidencial</SPAN> </TD>
+<TD CLASS="ntdefault">**Inscrito por Web**</TD>
+<TD CLASS="ntdefault">
+<LABEL for=marks_id19><SPAN class="fieldlabeltextinvisible">Puntaje</SPAN></LABEL>
+<INPUT TYPE="text" NAME="marks_tab" SIZE="7" MAXLENGTH="6" VALUE="68" ID="marks_id2"><INPUT TYPE="hidden" NAME="inclind_tab" VALUE="M">
+</TD>
+<TD CLASS="ntdefault">100</TD>
+<TD CLASS="ntdefault">68</TD>
+<TD CLASS="ntdefault">
+3.4
+<INPUT TYPE="hidden" NAME="calif_tab" VALUE="3.4">
+</TD>
+<TD CLASS="ntdefault">May 07, 2018</TD>
+<TD CLASS="ntdefault">
+<LABEL for=subdate_id19><SPAN class="fieldlabeltextinvisible">Fecha Envío</SPAN></LABEL>
+<INPUT TYPE="text" NAME="subdate_tab" SIZE="16" MAXLENGTH="12" VALUE="07/05/2018" ID="subdate_id19">
+</TD>
+<TD CLASS="ntdefault">
+<LABEL for=extdate_id19><SPAN class="fieldlabeltextinvisible">Fecha de Extensión</SPAN></LABEL>
+<INPUT TYPE="text" NAME="extdate_tab" SIZE="16" MAXLENGTH="12" ID="extdate_id19">
+</TD>
+<TD CLASS="ntdefault">
+<LABEL for=marker_id19><SPAN class="fieldlabeltextinvisible">Nombre de Nota</SPAN></LABEL>
+<SELECT NAME="markerName_tab" SIZE="1" ID="marker_id19">
+<OPTION VALUE="596375" SELECTED>MURIEL RODRIGUEZ, RODOLFO A.
+</SELECT>
+</TD>
+<TD CLASS="ntdefault">
+<LABEL for=grdchgcde_id19><SPAN class="fieldlabeltextinvisible">Razón</SPAN></LABEL>
+<SELECT NAME="grdchgCde_tab" SIZE="1" ID="grdchgcde_id19">
+<OPTION VALUE="CS">CS-Cambio por examen supletorio
+<OPTION VALUE="HB">HB-Cambio por Habilitacion
+<OPTION VALUE="OE" SELECTED>OE-Captura Original
+<OPTION VALUE="EE">EE-Error de Ingreso
+<OPTION VALUE="CD">CD-Corrección de Docente
+<OPTION VALUE="SG">SG-Grado Sustituto
+<OPTION VALUE="SD">SD-Calificación Sistema Developer
+<OPTION VALUE="CP">CP-Cambio Plan Estudios
+<OPTION VALUE="DN">DN-Docente no Registro Nota
+<OPTION VALUE="HA">HA-Historia Académ./Homologación
+<OPTION VALUE="TL">TL-Homologacion traslado
+<OPTION VALUE="CR">CR-Capped Resit
+<OPTION VALUE="DL">DL-Degraded Late
+<OPTION VALUE="CC">CC-Composite Calculation
+<OPTION VALUE="RC">RC-Re-Calculated
+</SELECT>
+</TD>
+</TR>
+</TABLE>
+<BR>
+<INPUT TYPE="hidden" NAME="STUDENT_COUNT" VALUE="19">
+<INPUT TYPE="hidden" NAME="MENU_NAME" VALUE="bmenu.P_FacMainMnu">
+<BR>
+<INPUT TYPE="submit" VALUE="Enviar">
+<INPUT TYPE="reset" VALUE="Reinicio">
+<BR>
+</FORM>
+
+<!--  ** START OF twbkwbis.P_CloseDoc **  -->
+<TABLE  CLASS="plaintable" SUMMARY="Esta tabla muestra separador de línea al final de la página."
+                                             WIDTH="100%" cellSpacing=0 cellPadding=0 border=0><TR><TD class="bgtabon" width="100%" colSpan=2><IMG SRC="/wtlgifs/web_transparent.gif" ALT="Imagen Transparente" CLASS="headerImg" TITLE="Imagen Transparente"  NAME="web_transparent" HSPACE=0 VSPACE=0 BORDER=0 HEIGHT=3 WIDTH=10></TD></TR></TABLE>
+<A HREF="#top" onMouseover="window.status='Ir a inicio de página'; return true" onMouseout="window.status=''; return true" OnFocus="window.status='Ir a inicio de página'; return true" onBlur="window.status=''; return true" class="skiplinks">Ir a inicio de página</A>
+</DIV>
+<DIV class="footerbeforediv">
+
+</DIV>
+<DIV class="footerlinksdiv">
+<SPAN class="pagefooterlinks">
+<MAP NAME="Ingresar_Marcas_Links_F" title="Ingresar Marcas Links">
+<p>
+<A HREF="#skip_Ingresar_Marcas_Links_F" onMouseover="window.status='Skip Ingresar Marcas Links'; return true" onMouseout="window.status=''; return true" onFocus="window.status='Skip Ingresar Marcas Links'; return true" onBlur="window.status=''; return true"  class="skiplinks">Skip Ingresar Marcas Links</A>
+<P>[ <A HREF="/pls/PROD/bwlkegrb.P_FacGradeComponents">Componentes Calificables</A>
+ ]
+</MAP>
+</SPAN>
+<a name="skip_Ingresar_Marcas_Links_F"></a>
+</DIV>
+<DIV class="footerafterdiv">
+
+</DIV>
+<DIV class="globalafterdiv">
+
+</DIV>
+<DIV class="globalfooterdiv">
+
+</DIV>
+<DIV class="pagefooterdiv">
+<SPAN class="releasetext">Versión: 8.1.1</SPAN>
+</DIV>
+<DIV class="poweredbydiv">
+</DIV>
+<DIV class="div1"></DIV>
+<DIV class="div2"></DIV>
+<DIV class="div3"></DIV>
+<DIV class="div4"></DIV>
+<DIV class="div5"></DIV>
+<DIV class="div6"></DIV>
+</BODY>
+</HTML>
