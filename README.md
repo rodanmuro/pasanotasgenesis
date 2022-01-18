@@ -1,4 +1,4 @@
-# pasanotasgenesis
+# Pasanotasgenesis
 PHP App to upload grades from Excel to Uniminuto Grade System
 
 Este software es un aplicativo web que se desarrolló en el año 2016, con el fin de facilitar el proceso de transferencia de notas desde un archivo de excel descargado de Moodle,
